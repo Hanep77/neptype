@@ -96,7 +96,7 @@ function App() {
                     <div className="flex justify-center mt-4 gap-1" onKeyUp={handleType}>
                         <input type="text" id="text"
                             className="bg-transparent border rounded border-zinc-400 text-xl px-2 outline-none w-48 h-10"
-                            autoComplete="off" autoFocus="on" spellCheck="false" />
+                            autoComplete="off" autoFocus="on" spellCheck="false" autoCapitalize="none" />
                         <button type="button" onClick={() => window.location.reload()} className="bg-orange-700 hover:bg-orange-600 w-10 flex justify-center items-center rounded"><IoReload /></button>
                     </div>
                 </div>
