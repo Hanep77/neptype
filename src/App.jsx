@@ -72,7 +72,7 @@ function App() {
 
     return (
         <>
-            <Analicics />
+            <Analytics />
             <div className="max-w-screen-md px-4 md:px-0 min-h-screen m-auto flex flex-col justify-center items-center">
                 <div className="w-full rounded p-4 bg-zinc-800">
                     <div className={score && "hidden"}>
