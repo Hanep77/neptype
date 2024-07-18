@@ -3,6 +3,7 @@ import { useEffect } from "react"
 import { useState } from "react"
 import { BsGithub, BsInstagram } from "react-icons/bs"
 import { IoReload } from "react-icons/io5"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
     const [text, setText] = useState([])
@@ -71,6 +72,7 @@ function App() {
 
     return (
         <>
+            <Analicics />
             <div className="max-w-screen-md px-4 md:px-0 min-h-screen m-auto flex flex-col justify-center items-center">
                 <div className="w-full rounded p-4 bg-zinc-800">
                     <div className={score && "hidden"}>
