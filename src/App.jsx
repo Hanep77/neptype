@@ -29,7 +29,7 @@ function App() {
             setDateStart(Date.now())
         }
 
-        if (e.keyCode == 32) {
+        if (e.keyCode == 32 || e.target.value[e.target.value.length - 1] == " ") {
             if (e.target.value !== " ") {
                 setActiveWord(prev => prev + 1)
             }
