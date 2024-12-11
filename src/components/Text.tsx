@@ -3,7 +3,7 @@ interface TextType {
   activeWord: number,
   correct: Array<{ index: number, value: string }>,
   incorrect: Array<{ index: number, value: string }>,
-  warning?: number
+  warning: number | null
 }
 
 const Text = ({ text, activeWord, correct, incorrect, warning }: TextType) => {
